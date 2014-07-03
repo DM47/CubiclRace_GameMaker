@@ -19,6 +19,7 @@
     <sprite>sprites\sprite9</sprite>
     <sprite>sprites\btn_spr</sprite>
     <sprite>sprites\controller_spr</sprite>
+    <sprite>sprites\goal_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tileSet_main_bg</background>
@@ -34,8 +35,9 @@
     <script>scripts\move_turnAround_scr.gml</script>
     <script>scripts\movReg_init_scr.gml</script>
     <script>scripts\movReg_add_scr.gml</script>
+    <script>scripts\movReg_remove_scr.gml</script>
     <script>scripts\drawCards_scr.gml</script>
-    <script>scripts\playCardsInit_scr.gml</script>
+    <script>scripts\playHand_scr.gml</script>
     <script>scripts\playCard_scr.gml</script>
   </scripts>
   <objects name="objects">
@@ -54,6 +56,7 @@
     <object>objects\btn_drawCards_obj</object>
     <object>objects\btn_playCards_obj</object>
     <object>objects\movReg_controller_obj</object>
+    <object>objects\goal_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\lvl_test_rm</room>

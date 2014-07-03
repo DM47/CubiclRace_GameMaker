@@ -2,22 +2,22 @@ with(argument0) {
     switch (direction)
     {
         case   0:
-            xNew = (x - (argument1*2*TILESPACE));
+            xNew = (x - (2*TILESPACE));
             yNew = y;
                 break;
         case  90:
             xNew = x;        
-            yNew = (y + (argument1*2*TILESPACE));
+            yNew = (y + (2*TILESPACE));
             break;
         case 180:
-            xNew = (x + (argument1*2*TILESPACE));
+            xNew = (x + (2*TILESPACE));
             yNew = y;
             break;
         case 270:
             xNew = x;
-            yNew = (y - (argument1*2*TILESPACE));
+            yNew = (y - (2*TILESPACE));
             break;
     }
-    speed = -movement;       
+    speed = -2*TILESPACE/room_speed;       
 }
-instance_destroy();
+

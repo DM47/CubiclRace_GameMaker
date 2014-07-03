@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>drawCards_scr(9);
+            <string>if(active == true){
+    active = false;
+    drawCards_scr(9);
+}
 </string>
           </argument>
         </arguments>
@@ -49,7 +52,7 @@
           <argument>
             <kind>1</kind>
             <string>draw_self();
-draw_text(x, y, "draw Cards");
+if(active==true){draw_text(x, y, "draw Cards");}
 </string>
           </argument>
         </arguments>

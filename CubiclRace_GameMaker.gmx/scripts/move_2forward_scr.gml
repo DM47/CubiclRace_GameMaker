@@ -18,7 +18,6 @@ with(argument0) {
             yNew = (y + (4*TILESPACE));
             break;
     }
-    speed = movement;
+    speed = 4*TILESPACE/room_speed;
                  
 }
-instance_destroy();
