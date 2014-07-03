@@ -1,4 +1,7 @@
-movReg[argument0-1,1]=0;
+for (i=0; i<argument0; i+=1)
+{
+    movReg[i] = noone;
+};
 
 cards = 0;
 

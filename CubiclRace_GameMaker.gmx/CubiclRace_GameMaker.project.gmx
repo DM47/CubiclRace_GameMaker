@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\robot_test_spr</sprite>
+    <sprite>sprites\card_spr</sprite>
     <sprite>sprites\card_1forward_spr</sprite>
     <sprite>sprites\card_2forward_spr</sprite>
     <sprite>sprites\card_3forward_spr</sprite>
@@ -35,10 +36,12 @@
     <script>scripts\movReg_add_scr.gml</script>
     <script>scripts\drawCards_scr.gml</script>
     <script>scripts\playCardsInit_scr.gml</script>
+    <script>scripts\playCard_scr.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\robot_obj</object>
     <object>objects\robot_test_obj</object>
+    <object>objects\card_obj</object>
     <object>objects\card_1forward_obj</object>
     <object>objects\card_2forward_obj</object>
     <object>objects\card_3forward_obj</object>
