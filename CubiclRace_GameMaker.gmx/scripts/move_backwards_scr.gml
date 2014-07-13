@@ -18,6 +18,7 @@ with(argument0) {
             yNew = (y - (2*TILESPACE));
             break;
     }
-    speed = -2*TILESPACE/room_speed;       
+    speed = -2*TILESPACE/room_speed;    
+    image_speed = 0.1*speed;   
 }
 

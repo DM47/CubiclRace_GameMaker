@@ -19,5 +19,6 @@ with(argument0) {
             break;
     }
     speed = 2*TILESPACE/room_speed;
+    image_speed = 0.1*speed;
                  
 }

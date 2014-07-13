@@ -28,8 +28,7 @@
             <string>/// declare variables
 
 active = true;
-xp = x;
-yp = y;
+p = noone;
 </string>
           </argument>
         </arguments>
@@ -104,8 +103,8 @@ if(id &lt; other.id){
             <kind>1</kind>
             <string>/// add card to movReg
 
-if(active == true){movReg_add_scr(id)}
-else if(active == false){movReg_remove_scr(id)}
+if(active == true){movReg_add_scr(p)}
+else if(active == false){movReg_remove_scr(p)}
 </string>
           </argument>
         </arguments>

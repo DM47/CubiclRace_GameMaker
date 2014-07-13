@@ -1,14 +1,22 @@
 with(movReg_controller_obj){
-   if(instance_exists(movReg[playCounter])){
-      playCard_scr(movReg[playCounter]);
+   // play current position 
+   if(instance_exists(movReg[playCounter,0])){
+      playCard_scr(movReg[playCounter,0]);
    }
+   // go to next positon
    playCounter++;
-   if(playCounter < array_length_1d(movReg) && instance_exists(movReg[playCounter])){
+   // if there is still a card to play...
+   if(playCounter < array_height_2d(movReg)){
+      //...call self in a 1 second  
       alarm[0] = room_speed;
    }
+   // if not, clean up
    else{
        playCounter = 0;
        cards = 0;
        btn_obj.active = true;
+       with(card_obj){
+        instance_destroy();
+       }
    }
 }

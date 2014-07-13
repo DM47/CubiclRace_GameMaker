@@ -1,6 +1,15 @@
+for (i=0; i<argument1; i+=1)
+{
+    cardsDrawn[i,0] = noone;
+    cardsDrawn[i,1] = x;
+    cardsDrawn[i,2] = y + i*TILESPACE;
+};
+
 for (i=0; i<argument0; i+=1)
 {
-    movReg[i] = noone;
+    movReg[i,0] = noone;
+    movReg[i,1] = x + 2*TILESPACE;
+    movReg[i,2] = y + i*TILESPACE;
 };
 
 cards = 0;

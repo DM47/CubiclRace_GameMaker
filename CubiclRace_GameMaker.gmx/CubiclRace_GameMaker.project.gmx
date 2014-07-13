@@ -16,33 +16,39 @@
     <sprite>sprites\card_turnRight_spr</sprite>
     <sprite>sprites\card_turnAround_spr</sprite>
     <sprite>sprites\collision_wall_spr</sprite>
-    <sprite>sprites\sprite9</sprite>
     <sprite>sprites\btn_spr</sprite>
     <sprite>sprites\controller_spr</sprite>
     <sprite>sprites\goal_spr</sprite>
+    <sprite>sprites\player_blue</sprite>
+    <sprite>sprites\player_boss_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tileSet_main_bg</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\move_1forward_scr.gml</script>
-    <script>scripts\move_2forward_scr.gml</script>
-    <script>scripts\move_3forward_scr.gml</script>
-    <script>scripts\move_backwards_scr.gml</script>
-    <script>scripts\move_turnLeft_scr.gml</script>
-    <script>scripts\move_turnRight_scr.gml</script>
-    <script>scripts\move_turnAround_scr.gml</script>
-    <script>scripts\movReg_init_scr.gml</script>
-    <script>scripts\movReg_add_scr.gml</script>
-    <script>scripts\movReg_remove_scr.gml</script>
-    <script>scripts\drawCards_scr.gml</script>
-    <script>scripts\playHand_scr.gml</script>
-    <script>scripts\playCard_scr.gml</script>
+    <scripts name="movements">
+      <script>scripts\move_1forward_scr.gml</script>
+      <script>scripts\move_2forward_scr.gml</script>
+      <script>scripts\move_3forward_scr.gml</script>
+      <script>scripts\move_backwards_scr.gml</script>
+      <script>scripts\move_turnLeft_scr.gml</script>
+      <script>scripts\move_turnRight_scr.gml</script>
+      <script>scripts\move_turnAround_scr.gml</script>
+    </scripts>
+    <scripts name="movementRegister">
+      <script>scripts\movReg_init_scr.gml</script>
+      <script>scripts\drawCards_scr.gml</script>
+      <script>scripts\movReg_add_scr.gml</script>
+      <script>scripts\movReg_remove_scr.gml</script>
+      <script>scripts\playHand_scr.gml</script>
+      <script>scripts\playCard_scr.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
-    <object>objects\robot_obj</object>
-    <object>objects\robot_test_obj</object>
+    <object>objects\player_obj</object>
+    <object>objects\player_blue_obj</object>
+    <object>objects\player_boss_obj</object>
     <object>objects\card_obj</object>
     <object>objects\card_1forward_obj</object>
     <object>objects\card_2forward_obj</object>
@@ -55,6 +61,7 @@
     <object>objects\btn_obj</object>
     <object>objects\btn_drawCards_obj</object>
     <object>objects\btn_playCards_obj</object>
+    <object>objects\btn_restartGame_obj</object>
     <object>objects\movReg_controller_obj</object>
     <object>objects\goal_obj</object>
   </objects>

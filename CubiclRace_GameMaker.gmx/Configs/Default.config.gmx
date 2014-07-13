@@ -387,10 +387,11 @@
     <option_xbone_texture_page>1024</option_xbone_texture_page>
   </Options>
   <ConfigConstants>
-    <constants number="3">
+    <constants number="4">
       <constant name="TILESPACE">32</constant>
-      <constant name="PLAYER">robot_test_obj</constant>
-      <constant name="HANDSIZE">5</constant>
+      <constant name="PLAYER">player_blue_obj</constant>
+      <constant name="DRAWAMOUNT">8</constant>
+      <constant name="HANDSIZE">3</constant>
     </constants>
   </ConfigConstants>
 </Config>

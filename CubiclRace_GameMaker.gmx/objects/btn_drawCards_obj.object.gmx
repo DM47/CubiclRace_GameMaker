@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>if(active == true){
     active = false;
-    drawCards_scr(9);
+    drawCards_scr(DRAWAMOUNT);
 }
 </string>
           </argument>
