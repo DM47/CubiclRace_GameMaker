@@ -26,3 +26,4 @@ with(argument0){
     }
 instance_destroy();
 }
+moveOtherRandom_scr(BOSS, 1);

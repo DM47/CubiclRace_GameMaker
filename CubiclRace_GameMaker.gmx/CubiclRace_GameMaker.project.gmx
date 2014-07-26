@@ -43,6 +43,7 @@
       <script>scripts\movReg_remove_scr.gml</script>
       <script>scripts\playHand_scr.gml</script>
       <script>scripts\playCard_scr.gml</script>
+      <script>scripts\moveOtherRandom_scr.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">

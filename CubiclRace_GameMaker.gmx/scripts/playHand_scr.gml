@@ -10,13 +10,13 @@ with(movReg_controller_obj){
       //...call self in a 1 second  
       alarm[0] = room_speed;
    }
-   // if not, clean up
+   // if not, clean up, then move the Boss
    else{
        playCounter = 0;
        cards = 0;
        btn_obj.active = true;
        with(card_obj){
-        instance_destroy();
+         instance_destroy();
        }
    }
 }
